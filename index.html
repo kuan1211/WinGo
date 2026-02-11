@@ -170,43 +170,55 @@
         </div>
     </section>
 
-    <section id="banner-section" class="py-12 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="relative w-full rounded-2xl overflow-hidden shadow-xl group h-[400px] md:h-[600px]">
-                <div class="carousel-slide absolute inset-0 transition-opacity duration-1000 opacity-100 z-10 ease-in-out" data-index="0">
-                    <img src="https://lh3.googleusercontent.com/d/1-dMlmxESWuWwH6uCxnOPNaVnp-jlTimJ" alt="WinGo 先鋒導入計畫" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-6 bg-black/30 opacity-0 group-hover:opacity-100 transition duration-500">
-                        <h3 class="text-3xl md:text-5xl font-bold text-white mb-4">WinGo 先鋒導入計畫</h3>
-                        <p class="text-white text-lg md:text-2xl mb-6">前 10 所申請學校享專屬優惠</p>
-                        <a href="#contact" class="px-8 py-3 bg-white text-slate-900 rounded-full font-bold text-lg hover:bg-brand-50 transition transform hover:scale-105">立即了解</a>
-                    </div>
-                </div>
-                <div class="carousel-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0 ease-in-out" data-index="1">
-                    <img src="https://lh3.googleusercontent.com/d/1V-QrpePiSx8sI4g1ZvnhbvW19JzNVvkc" alt="歷屆考古題庫" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-6 bg-black/30 opacity-0 group-hover:opacity-100 transition duration-500">
-                        <h3 class="text-3xl md:text-5xl font-bold text-white mb-4">海量國考題庫</h3>
-                        <p class="text-white text-lg md:text-2xl mb-6">收錄完整 10 年歷屆試題</p>
-                        <a href="#features" class="px-8 py-3 bg-white text-slate-900 rounded-full font-bold text-lg hover:bg-brand-50 transition transform hover:scale-105">查看功能</a>
-                    </div>
-                </div>
-                <div class="carousel-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0 ease-in-out" data-index="2">
-                    <img src="https://lh3.googleusercontent.com/d/1bbOqKHATwmcz2nL4dQGHcymBUCe5XlCG" alt="AI弱點分析" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-6 bg-black/30 opacity-0 group-hover:opacity-100 transition duration-500">
-                        <h3 class="text-3xl md:text-5xl font-bold text-white mb-4">AI 弱點診斷</h3>
-                        <p class="text-white text-lg md:text-2xl mb-6">幫你找出知識盲區</p>
-                        <a href="#analysis" class="px-8 py-3 bg-white text-slate-900 rounded-full font-bold text-lg hover:bg-brand-50 transition transform hover:scale-105">分析詳情</a>
-                    </div>
-                </div>
-                <button onclick="changeSlide(-1)" class="absolute left-4 top-1/2 -translate-y-1/2 text-white p-4 rounded-full hover:bg-black/40 transition z-20 focus:outline-none"><i class="fas fa-chevron-left text-3xl"></i></button>
-                <button onclick="changeSlide(1)" class="absolute right-4 top-1/2 -translate-y-1/2 text-white p-4 rounded-full hover:bg-black/40 transition z-20 focus:outline-none"><i class="fas fa-chevron-right text-3xl"></i></button>
-                <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3 z-20">
-                    <button onclick="goToSlide(0)" class="dot w-3 h-3 md:w-4 md:h-4 rounded-full bg-white transition shadow-md"></button>
-                    <button onclick="goToSlide(1)" class="dot w-3 h-3 md:w-4 md:h-4 rounded-full bg-white/50 hover:bg-white transition shadow-md"></button>
-                    <button onclick="goToSlide(2)" class="dot w-3 h-3 md:w-4 md:h-4 rounded-full bg-white/50 hover:bg-white transition shadow-md"></button>
+
+
+
+<section id="banner-section" class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="relative w-full rounded-2xl overflow-hidden shadow-xl group h-auto aspect-[2/1] md:aspect-none md:h-[600px] bg-black">
+            
+            <div class="carousel-slide absolute inset-0 transition-opacity duration-1000 opacity-100 z-10 ease-in-out" data-index="0">
+                <img src="https://lh3.googleusercontent.com/d/1-dMlmxESWuWwH6uCxnOPNaVnp-jlTimJ" alt="WinGo 先鋒導入計畫" class="w-full h-full object-contain md:object-cover">
+                
+                <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-6 bg-black/30 opacity-0 group-hover:opacity-100 transition duration-500">
+                    <h3 class="text-3xl md:text-5xl font-bold text-white mb-4">WinGo 先鋒導入計畫</h3>
+                    <p class="text-white text-lg md:text-2xl mb-6">前 10 所申請學校享專屬優惠</p>
+                    <a href="#contact" class="px-8 py-3 bg-white text-slate-900 rounded-full font-bold text-lg hover:bg-brand-50 transition transform hover:scale-105">立即了解</a>
                 </div>
             </div>
+
+            <div class="carousel-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0 ease-in-out" data-index="1">
+                <img src="https://lh3.googleusercontent.com/d/1V-QrpePiSx8sI4g1ZvnhbvW19JzNVvkc" alt="歷屆考古題庫" class="w-full h-full object-contain md:object-cover">
+                
+                <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-6 bg-black/30 opacity-0 group-hover:opacity-100 transition duration-500">
+                    <h3 class="text-3xl md:text-5xl font-bold text-white mb-4">海量國考題庫</h3>
+                    <p class="text-white text-lg md:text-2xl mb-6">收錄完整 10 年歷屆試題</p>
+                    <a href="#features" class="px-8 py-3 bg-white text-slate-900 rounded-full font-bold text-lg hover:bg-brand-50 transition transform hover:scale-105">查看功能</a>
+                </div>
+            </div>
+
+            <div class="carousel-slide absolute inset-0 transition-opacity duration-1000 opacity-0 z-0 ease-in-out" data-index="2">
+                <img src="https://lh3.googleusercontent.com/d/1bbOqKHATwmcz2nL4dQGHcymBUCe5XlCG" alt="AI弱點分析" class="w-full h-full object-contain md:object-cover">
+                
+                <div class="absolute inset-0 flex flex-col justify-center items-center text-center p-6 bg-black/30 opacity-0 group-hover:opacity-100 transition duration-500">
+                    <h3 class="text-3xl md:text-5xl font-bold text-white mb-4">AI 弱點診斷</h3>
+                    <p class="text-white text-lg md:text-2xl mb-6">幫你找出知識盲區</p>
+                    <a href="#analysis" class="px-8 py-3 bg-white text-slate-900 rounded-full font-bold text-lg hover:bg-brand-50 transition transform hover:scale-105">分析詳情</a>
+                </div>
+            </div>
+
+            <button onclick="changeSlide(-1)" class="absolute left-4 top-1/2 -translate-y-1/2 text-white p-4 rounded-full hover:bg-black/40 transition z-20 focus:outline-none"><i class="fas fa-chevron-left text-3xl"></i></button>
+            <button onclick="changeSlide(1)" class="absolute right-4 top-1/2 -translate-y-1/2 text-white p-4 rounded-full hover:bg-black/40 transition z-20 focus:outline-none"><i class="fas fa-chevron-right text-3xl"></i></button>
+            
+            <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3 z-20">
+                <button onclick="goToSlide(0)" class="dot w-3 h-3 md:w-4 md:h-4 rounded-full bg-white transition shadow-md"></button>
+                <button onclick="goToSlide(1)" class="dot w-3 h-3 md:w-4 md:h-4 rounded-full bg-white/50 hover:bg-white transition shadow-md"></button>
+                <button onclick="goToSlide(2)" class="dot w-3 h-3 md:w-4 md:h-4 rounded-full bg-white/50 hover:bg-white transition shadow-md"></button>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section id="analysis" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
